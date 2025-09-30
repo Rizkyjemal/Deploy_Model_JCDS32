@@ -6,7 +6,7 @@ import pickle
 
 #Memberikan judul
 st.title("Survive Predictor")
-st.title("This website can beused to predict survival rate Titanic Customer")
+st.write("This website can be used to predict survival rate Titanic Customer")
 
 #Menambahkan sidebar
 st.sidebar.header("Please Input Customer's features!")
@@ -69,3 +69,4 @@ with col2:
     
     #Display probability
     st.write(f"Probability of survive : {probability[1]:.2f}")
+
